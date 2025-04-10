@@ -1,6 +1,8 @@
 body {
     font-family: 'Arial', sans-serif;
     background: #f4f4f9;
+    background-image: url("img2.jpeg");
+    background-repeat: no-repeat;
     margin: 0;
     padding: 20px;
     display: flex;
@@ -11,8 +13,9 @@ body {
 
 .container {
     background: #fff;
+    opacity: 0.9;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1,);
     padding: 20px;
     width: 100%;
     max-width: 600px;
